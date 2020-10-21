@@ -9,7 +9,7 @@ jobs:
       id: hello
       uses: MaxMilshin/MaxMilshin.github.io@v1
       with:
-        who-to-greet: 'Kira the good'
+        who-to-greet: 'Max'
     # Use the output from the `hello` step
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"
